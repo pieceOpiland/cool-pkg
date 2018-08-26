@@ -4,7 +4,7 @@
   "description": "This is just a test of npm via travis-ci",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pieceOpiland/pieceopiland-cool-pkg/issues"
   },
-  "homepage": "https://github.com/pieceOpiland/pieceopiland-cool-pkg#readme"
+  "homepage": "https://github.com/pieceOpiland/pieceopiland-cool-pkg#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }

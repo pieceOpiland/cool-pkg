@@ -1,3 +1,6 @@
-module.exports = function() {
-  console.log("This is a test of the npm registry and travis-ci deployment.");
-};
+function CoolClass(value) {
+  this.value = value;
+}
+
+module.exports = CoolClass;
+
